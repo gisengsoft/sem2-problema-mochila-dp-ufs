@@ -1,0 +1,9 @@
+# Exemplo 1
+60 100 120      # Valores dos itens
+10 20 30        # Pesos dos itens
+50              # Capacidade da mochila
+
+# Exemplo 2
+50 70 80 90     # Valores dos itens
+10 20 30 40     # Pesos dos itens
+50              # Capacidade da mochila
