@@ -48,6 +48,7 @@ Os slides do seminário em PDF estão disponíveis aqui
 
 A estrutura do repositório é a seguinte:
 
+```text
 /sem2-problema-mochila-dp-ufs
 ├── README.md                   # Documento explicativo
 ├── seminario_mochila_01_slides.pdf # Slides do seminário em PDF
@@ -56,6 +57,7 @@ A estrutura do repositório é a seguinte:
     ├── dados
     │   └── exemplos.txt       # Dados de entrada para o problema
     └── requisitos.txt         # Dependências adicionais (caso haja)
+```
 
 ## Como Contribuir
 
@@ -74,6 +76,4 @@ Envie suas modificações para o repositório remoto:
 git push origin nome-da-branch
 
 Abra um pull request para análise.
-
-Agora o **README.md** está com o nome do seu repositório **"sem2-problema-mochila-dp-ufs"**. Se precisar de mais alguma alteração ou dúvida, estou à disposição!
 
