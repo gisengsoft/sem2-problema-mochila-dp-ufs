@@ -32,11 +32,11 @@ O arquivo exemplos.txt contém dados de entrada que o código irá processar. El
 
 ## Link para o Vídeo de Apresentação
 
-O vídeo de apresentação do seminário pode ser acessado aqui
+O vídeo de apresentação do seminário pode ser acessado aqui LINK
 
 ## Slides do Seminário
 
-Os slides do seminário em PDF estão disponíveis aqui
+Os slides do seminário em PDF estão disponíveis aqui LINK
 
 ## Requisitos
 
@@ -58,7 +58,6 @@ A estrutura do repositório é a seguinte:
     │   └── exemplos.txt       # Dados de entrada para o problema
     └── requisitos.txt         # Dependências adicionais (caso haja)
 ```
-
 ## Como Contribuir
 
 Fork o repositório.
