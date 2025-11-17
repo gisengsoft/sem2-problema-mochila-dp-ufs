@@ -32,7 +32,7 @@ O arquivo exemplos.txt contém dados de entrada que o código irá processar. El
 
 ## Link para o Vídeo de Apresentação
 
-O vídeo de apresentação do seminário pode ser acessado aqui LINK
+O vídeo de apresentação do seminário pode ser acessado aqui 
 
 ## Slides do Seminário
 
