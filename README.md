@@ -32,11 +32,13 @@ O arquivo exemplos.txt contém dados de entrada que o código irá processar. El
 
 ## Link para o Vídeo de Apresentação
 
-O vídeo de apresentação do seminário pode ser acessado aqui 
+O vídeo de apresentação do seminário pode ser acessado <a href="https://youtu.be/yQsyzaOjS68" target="_blank">Clicando aqui</a>
+
 
 ## Slides do Seminário
 
-Os slides do seminário em PDF estão disponíveis aqui LINK
+Os slides do seminário em .PDF estão disponíveis [aqui](./APRESENTAÇÃO%20SEMINARIO%202%20PAA%20-%20GILSON%20INACIO%20&%20EDERSON%20MANOEL.pdf).
+
 
 ## Requisitos
 
