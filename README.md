@@ -1,80 +1,142 @@
-# Problema da Mochila 0/1 com Programação Dinâmica
+# Problema da Mochila 0/1 com Programação Dinâmica  
+### **Autores:** Gilson Inácio da Silva e Ederson Manoel de Oliveira
 
-## Descrição do Projeto
-Este repositório contém a solução para o **Problema da Mochila 0/1** utilizando a técnica de **Programação Dinâmica**. O objetivo do problema é selecionar um subconjunto de itens, cada um com valor e peso, de forma a maximizar o valor total dos itens escolhidos, sem que o peso total ultrapasse a capacidade da mochila.
+<div align="center">
 
-### Objetivo:
-- Maximizar o valor total dos itens na mochila, sem ultrapassar o limite de capacidade, utilizando **Programação Dinâmica** para otimização.
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Build](https://img.shields.io/badge/Build-Passing-success)
+![DP](https://img.shields.io/badge/Algorithm-Dynamic%20Programming-orange)
 
-## Como Executar o Código
+</div>
 
-1. **Clone este repositório** em sua máquina local:
-   ```bash
-   git clone https://github.com/usuário/sem2-problema-mochila-dp-ufs.git
+---
 
-## Acesse a pasta do código:
+## 🧩 Descrição do Projeto
+Este repositório apresenta a implementação do **Problema da Mochila 0/1**, resolvido através da técnica de **Programação Dinâmica**.
 
+O objetivo é selecionar um conjunto de itens — cada um com **valor** e **peso** — de forma que o valor total seja **máximo**, sem ultrapassar a capacidade da mochila.
+
+### 🎯 Objetivos
+- Maximizar o valor transportado na mochila.
+- Utilizar Programação Dinâmica para otimização.
+- Demonstrar uma implementação educacional clara e eficiente.
+
+---
+
+## 🖥️ Demonstração (GIF da Execução)
+
+> *GIF ilustrativo do algoritmo rodando (placeholders).  
+> Substitua por um GIF real se desejar.*
+
+<div align="center">
+  
+![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZwdGsyc3Z0bGZzcWl1eDI0MXFuZW1tbDdjdmU4YXd4N3NpcGs4MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dWesBcTLavkZuG35ZL/giphy.gif)
+
+</div>
+
+---
+
+## ▶️ Como Executar o Código
+
+### 1️⃣ Clonar o repositório
+```bash
+git clone https://github.com/usuario/sem2-problema-mochila-dp-ufs.git
+```
+
+### 2️⃣ Entrar na pasta do código
+```bash
 cd sem2-problema-mochila-dp-ufs/codigo
+```
 
-## Instalar as dependências (caso tenha bibliotecas externas):
-
-O código foi desenvolvido em Python 3.x e não requer bibliotecas externas além da biblioteca padrão. No entanto, caso haja necessidade de instalar alguma dependência adicional, use o arquivo requisitos.txt:
-
+### 3️⃣ Instalar dependências (se houver)
+```bash
 pip install -r requisitos.txt
+```
 
-## Executar o código:
-
-O arquivo principal do código é knapsack.py. Para rodá-lo, basta executar:
-
+### 4️⃣ Executar
+```bash
 python knapsack.py
+```
 
-O arquivo exemplos.txt contém dados de entrada que o código irá processar. Ele está localizado dentro da pasta codigo/dados/ e pode ser modificado para testar diferentes cenários de entrada.
+Os dados de entrada estão em:
 
-## Link para o Vídeo de Apresentação
+```
+/codigo/dados/exemplos.txt
+```
 
-O vídeo de apresentação do seminário pode ser acessado <a href="https://youtu.be/yQsyzaOjS68" target="_blank">Clicando aqui</a>
+Você pode editar esse arquivo para testar outros cenários.
 
+---
 
-## Slides do Seminário
+## 🎬 Vídeo da Apresentação
 
-Os slides do seminário em .PDF estão disponíveis [aqui](./APRESENTAÇÃO%20SEMINARIO%202%20PAA%20-%20GILSON%20INACIO%20&%20EDERSON%20MANOEL.pdf).
+👉 <a href="https://youtu.be/yQsyzaOjS68" target="_blank">Clique aqui para assistir ao vídeo no YouTube</a>
 
+---
 
-## Requisitos
+## 📑 Slides do Seminário
 
-- Python 3.x (não há dependências externas além da biblioteca padrão).
+📄 A apresentação oficial em PDF pode ser acessada aqui:
 
-- Se necessário, bibliotecas como numpy ou matplotlib podem ser instaladas via requisitos.txt para funcionalidades adicionais.
+👉 [APRESENTAÇÃO SEMINARIO 2 PAA - GILSON INACIO & EDERSON MANOEL.pdf](./APRESENTAÇÃO%20SEMINARIO%202%20PAA%20-%20GILSON%20INACIO%20&%20EDERSON%20MANOEL.pdf)
 
-## Estrutura do Repositório
+---
 
-A estrutura do repositório é a seguinte:
+## 📋 Requisitos
+
+- Python **3.x**  
+- Biblioteca padrão do Python  
+- Dependências opcionais podem ser adicionadas ao arquivo `requisitos.txt`
+
+---
+
+## 📂 Estrutura do Repositório
 
 ```text
 /sem2-problema-mochila-dp-ufs
-├── README.md                   # Documento explicativo
-├── seminario_mochila_01_slides.pdf # Slides do seminário em PDF
+├── README.md                                  # Documento principal
+├── seminario_mochila_01_slides.pdf            # Slides do seminário
 └── codigo
-    ├── knapsack.py             # Código em Python para resolver o problema
+    ├── knapsack.py                            # Implementação do algoritmo
     ├── dados
-    │   └── exemplos.txt       # Dados de entrada para o problema
-    └── requisitos.txt         # Dependências adicionais (caso haja)
+    │   └── exemplos.txt                       # Arquivo de dados de entrada
+    └── requisitos.txt                         # Dependências opcionais
 ```
-## Como Contribuir
 
-Fork o repositório.
+---
 
-Crie uma branch para sua contribuição:
+## 🤝 Como Contribuir
 
-git checkout -b nome-da-branch
+1. Faça um fork do repositório.
+2. Crie uma branch para sua contribuição:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Faça commits bem descritos:
+   ```bash
+   git commit -am "Nova feature adicionada"
+   ```
+4. Envie suas alterações:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um Pull Request.
 
-Faça suas modificações e commits:
+---
 
-git commit -am "Adicionando novas funcionalidades"
+## 📝 Licença
 
-Envie suas modificações para o repositório remoto:
+Este projeto está licenciado sob a **MIT License**.  
+Você é livre para usar, modificar e distribuir.
 
-git push origin nome-da-branch
+---
 
-Abra um pull request para análise.
+## ⭐ Agradecimentos
+
+Projeto desenvolvido como parte do **Seminário 2 – Programação e Análise de Algoritmos (PAA)**  
+Universidade Federal de Sergipe — **UFS**
+
+---
 
