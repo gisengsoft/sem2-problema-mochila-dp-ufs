@@ -1,80 +1,95 @@
-# Problema da Mochila 0/1 com Programação Dinâmica
+# Problema da Mochila 0/1 com Programação Dinâmica  
+### **Autores:** Gilson Inácio da Silva e Ederson Manoel de Oliveira
 
-## Descrição do Projeto
-Este repositório contém a solução para o **Problema da Mochila 0/1** utilizando a técnica de **Programação Dinâmica**. O objetivo do problema é selecionar um subconjunto de itens, cada um com valor e peso, de forma a maximizar o valor total dos itens escolhidos, sem que o peso total ultrapasse a capacidade da mochila.
+## 📘 Descrição do Projeto
+Este repositório contém a implementação do **Problema da Mochila 0/1**, resolvido utilizando a técnica de **Programação Dinâmica**.
 
-### Objetivo:
-- Maximizar o valor total dos itens na mochila, sem ultrapassar o limite de capacidade, utilizando **Programação Dinâmica** para otimização.
+O objetivo do problema é selecionar um conjunto de itens — cada um com peso e valor — de forma a **maximizar o valor total**, respeitando o limite de capacidade da mochila.
 
-## Como Executar o Código
+### 🎯 Objetivo Geral
+- Maximizar o valor total dos itens selecionados.
+- Resolver o problema de forma eficiente com Programação Dinâmica.
+- Respeitar a capacidade máxima da mochila.
 
-1. **Clone este repositório** em sua máquina local:
-   ```bash
-   git clone https://github.com/usuário/sem2-problema-mochila-dp-ufs.git
+---
 
-## Acesse a pasta do código:
+## ▶️ Como Executar o Código
 
+### 1️⃣ Clonar o repositório
+```bash
+git clone https://github.com/usuario/sem2-problema-mochila-dp-ufs.git
+```
+
+### 2️⃣ Acessar a pasta do código
+```bash
 cd sem2-problema-mochila-dp-ufs/codigo
+```
 
-## Instalar as dependências (caso tenha bibliotecas externas):
+### 3️⃣ Instalar dependências (se existirem)
+O projeto foi desenvolvido em **Python 3.x** e não utiliza bibliotecas externas além da biblioteca padrão.  
+Se futuramente houver dependências, utilize:
 
-O código foi desenvolvido em Python 3.x e não requer bibliotecas externas além da biblioteca padrão. No entanto, caso haja necessidade de instalar alguma dependência adicional, use o arquivo requisitos.txt:
-
+```bash
 pip install -r requisitos.txt
+```
 
-## Executar o código:
-
-O arquivo principal do código é knapsack.py. Para rodá-lo, basta executar:
-
+### 4️⃣ Executar o algoritmo
+```bash
 python knapsack.py
+```
 
-O arquivo exemplos.txt contém dados de entrada que o código irá processar. Ele está localizado dentro da pasta codigo/dados/ e pode ser modificado para testar diferentes cenários de entrada.
+O arquivo **exemplos.txt**, localizado em `codigo/dados/`, contém exemplos de entradas que podem ser modificados para testar diferentes cenários.
 
-## Link para o Vídeo de Apresentação
+---
 
-O vídeo de apresentação do seminário pode ser acessado <a href="https://youtu.be/yQsyzaOjS68" target="_blank">Clicando aqui</a>
+## 🎬 Vídeo da Apresentação
+👉 <a href="https://youtu.be/yQsyzaOjS68" target="_blank">Clique aqui para assistir ao vídeo da apresentação</a>
 
+---
 
-## Slides do Seminário
+## 📑 Slides do Seminário
+📄 Os slides oficiais do seminário estão disponíveis aqui:  
+👉 [APRESENTAÇÃO SEMINARIO 2 PAA - GILSON INACIO & EDERSON MANOEL.pdf](./APRESENTAÇÃO%20SEMINARIO%202%20PAA%20-%20GILSON%20INACIO%20&%20EDERSON%20MANOEL.pdf)
 
-Os slides do seminário em .PDF estão disponíveis [aqui](./APRESENTAÇÃO%20SEMINARIO%202%20PAA%20-%20GILSON%20INACIO%20&%20EDERSON%20MANOEL.pdf).
+---
 
+## 📌 Requisitos
+- Python 3.x  
+- Nenhuma dependência obrigatória além da biblioteca padrão  
+- Dependências opcionais podem ser adicionadas ao `requisitos.txt` (ex.: numpy, matplotlib)
 
-## Requisitos
+---
 
-- Python 3.x (não há dependências externas além da biblioteca padrão).
-
-- Se necessário, bibliotecas como numpy ou matplotlib podem ser instaladas via requisitos.txt para funcionalidades adicionais.
-
-## Estrutura do Repositório
-
-A estrutura do repositório é a seguinte:
-
+## 📂 Estrutura do Repositório
 ```text
 /sem2-problema-mochila-dp-ufs
-├── README.md                   # Documento explicativo
-├── seminario_mochila_01_slides.pdf # Slides do seminário em PDF
+├── README.md                                  # Documento principal do projeto
+├── seminario_mochila_01_slides.pdf            # Slides do seminário
 └── codigo
-    ├── knapsack.py             # Código em Python para resolver o problema
+    ├── knapsack.py                            # Implementação do algoritmo
     ├── dados
-    │   └── exemplos.txt       # Dados de entrada para o problema
-    └── requisitos.txt         # Dependências adicionais (caso haja)
+    │   └── exemplos.txt                       # Arquivo de entrada de dados
+    └── requisitos.txt                         # Dependências opcionais
 ```
-## Como Contribuir
 
-Fork o repositório.
+---
 
-Crie uma branch para sua contribuição:
+## 🤝 Como Contribuir
 
-git checkout -b nome-da-branch
+1. Faça um fork do repositório.
+2. Crie uma branch específica:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Faça suas alterações:
+   ```bash
+   git commit -am "Adiciona nova funcionalidade"
+   ```
+4. Envie sua branch:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um Pull Request para análise.
 
-Faça suas modificações e commits:
-
-git commit -am "Adicionando novas funcionalidades"
-
-Envie suas modificações para o repositório remoto:
-
-git push origin nome-da-branch
-
-Abra um pull request para análise.
+---
 
